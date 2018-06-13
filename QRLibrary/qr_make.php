@@ -1,7 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: imac
+ * Created by Naveen Enushan.
  * Date: 6/13/18
  * Time: 10:01 AM
  */
@@ -10,12 +9,6 @@ class qr_make
 {
 
     function getImageOFQR($id){
-
-
-        /*
-         * php QR Generator
-         * BY:Naveen Enushan
-         */
 
 
         $data = base_url('Ticket?ref=').$id;
