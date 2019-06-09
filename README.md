@@ -1,6 +1,6 @@
 # PHP-QR-generator-with-logo
 
-#usage
+# Usage
 
 include(APPPATH . 'libraries/QRLibrary/qr_make.php');
 
@@ -9,6 +9,6 @@ include(APPPATH . 'libraries/QRLibrary/qr_make.php');
 
     $qr_name=$qr_obg->getImageOFQR('QWD1234');
 
-#update logo path
+# Update logo path
     
     $logo =  base_url('assets/uploads/1x/qrLOGO.jpg');
